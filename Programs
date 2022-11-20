@@ -1,0 +1,28 @@
+main
+	wayland
+	xwayland
+	sway
+	swaync
+	swaybg
+	waybar
+	rofi
+	alacritty
+Fonts
+	isoevka nerd font
+	google font
+	material dark icons desktop git
+
+Programs
+	pcmanfm	
+	pavucontrol
+	Firefox
+	Bitwarden
+	leafpad
+	whatsapp nativiveew
+
+Utilites
+	grim
+	slurp
+	wlcopy
+	swappy
+	jq

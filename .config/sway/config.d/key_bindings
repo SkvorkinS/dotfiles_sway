@@ -1,0 +1,45 @@
+################
+# KEY BINDINGS #
+################
+set $powermenu ~/.local/bin/power.sh
+set $floating ~/.local/bin/floating.sh
+set $screenshot ~/.local/bin/screenshot.sh
+
+
+# terminal
+bindsym $mod+Return exec --no-startup-id alacritty
+
+# rofi
+bindsym $mod+d exec --no-startup-id rofi -show run -hide-scrolbar
+
+# bitwarden
+bindsym $mod+b exec --no-startup-id bitwarden-desktop
+
+# AO To Do
+bindsym $mod+a exec --no-startup-id ao
+
+# Telegram
+bindsym $mod+t exec --no-startup-id telegram-desktop
+
+# Pavucontrol
+bindsym $mod+p exec --no-startup-id pavucontrol
+
+# Whatsapp
+bindsym $mod+w exec --no-startup-id whatsapp-nativefier
+
+# PcMANfm
+bindsym $mod+e exec --no-startup-id pcmanfm
+
+# firefox
+bindsym $mod+f exec --no-startup-id firefox
+
+# leafpad
+bindsym $mod+l exec --no-startup-id leafpad
+
+# power menu
+bindsym $mod+f1 --no-startup-id ~/.local/bin/power.sh
+
+# screenshot
+bindsym print exec --no-startup-id ~/.local/bin/screenshot.sh
+
+
