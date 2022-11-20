@@ -21,7 +21,7 @@ for_window [app_id="Blueman-manager"] floating enable, border normal
 for_window [app_id="pavucontrol"] floating enable, border normal
 
 # Whatsapp
-for_window [app_id="whatsapp-nativefier-d40211"] floating enable, border normal
+for_window [instance="whatsapp-nativefier-d40211"] floating enable, border normal
 
 # pcmanfm
 for_window [instance="pcmanfm"] floating enable, border normal
