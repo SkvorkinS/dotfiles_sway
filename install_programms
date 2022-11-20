@@ -1,0 +1,5 @@
+sudo pacman -S wayland xorg-xwayland foot waybar swaybg rofi ttf-iosevka-nerd pcmanfm pavucontrol firefox bitwarden leafpad gvfs libsixel grim slurp wl-clipboard swappy jq fish galculator neovim
+
+pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+yay -S swaync ttf-google-fonts-git ttf-material-design-icons-desktop-git whatsapp-nativefier betterlockscreen
