@@ -1,12 +1,12 @@
 
 # lxappearance
-for_window [app_id="Lxappearance"] floating enable, resize set width 60 ppt height 50 ppt
+for_window [instance="lxappearance"] floating enable, resize set width 60 ppt height 50 ppt
+
+# Calculator 
+for_window [app_id="galculator"] floating enable, border normal
 
 # bitwarden
-for_window [app_id="Bitwarden"] floating enable, border normal
-
-# calculator
-for_window [app_id="gnome-calculator"] floating enable, border normal
+for_window [title="Bitwarden"] floating enable, border normal
 
 # ao (MS to-do)
 for_window [app_id="Ao"] floating enable, border normal
@@ -18,16 +18,16 @@ for_window [app_id="telegramdesktop"] floating enable, border normal
 for_window [app_id="Blueman-manager"] floating enable, border normal
 
 # pavucontrol
-for_window [app_id="Pavucontrol"] floating enable, border normal
+for_window [app_id="pavucontrol"] floating enable, border normal
 
 # Whatsapp
 for_window [app_id="whatsapp-nativefier-d40211"] floating enable, border normal
 
 # pcmanfm
-for_window [app_id="Pcmanfm"] floating enable, border normal
+for_window [instance="pcmanfm"] floating enable, border normal
 
 # leafpad
-for_window [app_id="Leafpad"] floating enable, border normal
+for_window [instance="leafpad"] floating enable, border normal
 
 
 

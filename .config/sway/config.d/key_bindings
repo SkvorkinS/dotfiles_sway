@@ -42,4 +42,5 @@ bindsym $mod+f1 --no-startup-id ~/.local/bin/power.sh
 # screenshot
 bindsym print exec --no-startup-id ~/.local/bin/screenshot.sh
 
-
+# calculator
+bindsym $mod+c exec --no-startup-id galculator
