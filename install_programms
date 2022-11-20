@@ -2,4 +2,4 @@ sudo pacman -S wayland xorg-xwayland foot waybar swaybg rofi ttf-iosevka-nerd pc
 
 pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
-yay -S swaync ttf-google-fonts-git ttf-material-design-icons-desktop-git whatsapp-nativefier betterlockscreen
+yay -S swaync ttf-google-fonts ttf-material-design-icons-desktop-git whatsapp-nativefier betterlockscreen
