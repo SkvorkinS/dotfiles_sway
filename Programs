@@ -6,7 +6,7 @@ main
 	swaybg
 	waybar
 	rofi
-	alacritty
+	foot
 Fonts
 	isoevka nerd font
 	google font
@@ -21,8 +21,11 @@ Programs
 	whatsapp nativiveew
 
 Utilites
+	gvfs
+	libsixel
 	grim
 	slurp
 	wlcopy
 	swappy
 	jq
+	betterlocksreen

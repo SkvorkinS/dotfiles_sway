@@ -7,7 +7,7 @@ set $screenshot ~/.local/bin/screenshot.sh
 
 
 # terminal
-bindsym $mod+Return exec --no-startup-id alacritty
+bindsym $mod+Return exec --no-startup-id foot
 
 # rofi
 bindsym $mod+d exec --no-startup-id rofi -show run -hide-scrolbar
