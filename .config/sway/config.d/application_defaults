@@ -15,13 +15,16 @@ for_window [app_id="Ao"] floating enable, border normal
 for_window [app_id="telegramdesktop"] floating enable, border normal
 
 # blueman
-for_window [app_id="Blueman-manager"] floating enable, border normal
+for_window [app_id="blueman-manager"] floating enable, border normal
 
 # pavucontrol
 for_window [app_id="pavucontrol"] floating enable, border normal
 
 # Whatsapp
 for_window [instance="whatsapp-nativefier-d40211"] floating enable, border normal
+
+# Steam
+for_window [instance="Steam"] floating enable, border normal
 
 # pcmanfm
 for_window [instance="pcmanfm"] floating enable, border normal

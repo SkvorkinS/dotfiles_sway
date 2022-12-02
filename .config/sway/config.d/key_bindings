@@ -5,42 +5,42 @@ set $powermenu ~/.local/bin/power.sh
 set $floating ~/.local/bin/floating.sh
 set $screenshot ~/.local/bin/screenshot.sh
 
+bindsym --to-code {
+	# terminal
+	$mod+Return exec --no-startup-id foot
 
-# terminal
-bindsym $mod+Return exec --no-startup-id foot
+	# rofi
+	$mod+d exec --no-startup-id rofi -show drun -hide-scrolbar
 
-# rofi
-bindsym $mod+d exec --no-startup-id rofi -show run -hide-scrolbar
+	# bitwarden
+	$mod+b exec --no-startup-id bitwarden-desktop
 
-# bitwarden
-bindsym $mod+b exec --no-startup-id bitwarden-desktop
+	# AO To Do
+	$mod+a exec --no-startup-id ao
 
-# AO To Do
-bindsym $mod+a exec --no-startup-id ao
+	# Telegram
+	$mod+t exec --no-startup-id telegram-desktop
 
-# Telegram
-bindsym $mod+t exec --no-startup-id telegram-desktop
+	# Pavucontrol
+	$mod+p exec --no-startup-id pavucontrol
 
-# Pavucontrol
-bindsym $mod+p exec --no-startup-id pavucontrol
+	# Whatsapp
+	$mod+w exec --no-startup-id whatsapp-nativefier
 
-# Whatsapp
-bindsym $mod+w exec --no-startup-id whatsapp-nativefier
+	# PcMANfm
+	$mod+e exec --no-startup-id pcmanfm
 
-# PcMANfm
-bindsym $mod+e exec --no-startup-id pcmanfm
+	# firefox
+	$mod+f exec --no-startup-id firefox
 
-# firefox
-bindsym $mod+f exec --no-startup-id firefox
+	# leafpad
+	$mod+l exec --no-startup-id leafpad
 
-# leafpad
-bindsym $mod+l exec --no-startup-id leafpad
+	# power menu
+	$mod+f1 --no-startup-id ~/.local/bin/power.sh
 
-# power menu
-bindsym $mod+f1 --no-startup-id ~/.local/bin/power.sh
+	# screenshot
+	print exec --no-startup-id ~/.local/bin/screenshot.sh
 
-# screenshot
-bindsym print exec --no-startup-id ~/.local/bin/screenshot.sh
-
-# calculator
-bindsym $mod+c exec --no-startup-id galculator
+	# calculator
+	$mod+c exec --no-startup-id galculator }

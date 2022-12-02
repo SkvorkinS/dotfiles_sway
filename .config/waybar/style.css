@@ -108,6 +108,7 @@ Arc-Dark Color Scheme
   
 }
 #custom-notification {
+    font-size:30px;
     border-radius: 0px;
     color: @text;
     padding-right: 10px;
