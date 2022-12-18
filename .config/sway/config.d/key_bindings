@@ -43,4 +43,12 @@ bindsym --to-code {
 	print exec --no-startup-id ~/.local/bin/screenshot.sh
 
 	# calculator
-	$mod+c exec --no-startup-id galculator }
+	$mod+g exec --no-startup-id galculator
+    
+    #timer
+    $mod+shift+t exec --no-startup-id foot -W48x5  ~/.local/bin/timer.sh
+
+    #timer
+    $mod+shift+c exec --no-startup-id foot -W30x10 calcure
+    }
+    
